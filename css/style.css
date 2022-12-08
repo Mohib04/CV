@@ -2,7 +2,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  color: #333538dc;
+  font-family: "Merriweather", serif;
   background-color: #f8fbff;
 }
 ul {
@@ -12,12 +13,34 @@ h1 {
   margin: 0px;
   padding: 0px;
 }
+h3 {
+  text-decoration: underline;
+}
 .container {
   width: 90%;
   margin: auto;
-  padding: 10px;
   background-color: #ffffff;
 }
 .container:hover {
   box-shadow: 5px 10px 18px rgb(235, 234, 234);
+}
+
+/* header-section */
+.cv {
+  display: flex;
+}
+.cv > div {
+  margin: 50px;
+}
+.image img {
+  width: 150px;
+  height: 160px;
+}
+.name {
+  margin-bottom: 50px;
+}
+.name h2 {
+  color: black;
+  margin: 0px;
+  padding: 0px;
 }
