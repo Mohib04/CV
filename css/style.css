@@ -16,6 +16,10 @@ h1 {
 h3 {
   text-decoration: underline;
 }
+dt {
+  color: black;
+  text-decoration: underline;
+}
 .container {
   width: 90%;
   margin: auto;
