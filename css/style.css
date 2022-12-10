@@ -29,12 +29,8 @@ dt {
   box-shadow: 5px 10px 18px rgb(235, 234, 234);
 }
 
-/* header-section */
 .cv {
-  display: flex;
-}
-.cv > div {
-  margin: 50px;
+  padding: 5%;
 }
 .image img {
   width: 150px;
@@ -47,4 +43,7 @@ dt {
   color: black;
   margin: 0px;
   padding: 0px;
+}
+.projects dl dd ul li {
+  list-style: circle;
 }
